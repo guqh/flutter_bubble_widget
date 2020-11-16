@@ -1,8 +1,7 @@
 name: flutter_bubble_widget
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: 全方位气泡组件
+version: 1.0.0
+homepage: https://github.com/guqh/flutter_bubble_widget
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
