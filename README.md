@@ -1,6 +1,7 @@
 # flutter_bubble_widget
 
-A new Flutter package project.
+
+在flutter工程中，这是一个强大的全方位的尖角的气泡组件，支持全部终端
 
 ## Getting Started
 
