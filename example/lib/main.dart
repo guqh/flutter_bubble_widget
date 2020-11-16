@@ -32,16 +32,17 @@ class MyHomePage extends StatelessWidget {
     return Center(
       child: Row(
         children: [
+          SizedBox(width: 20,),
           Column(
             children: [
               SizedBox(
-                height: 20,
+                height: 50,
               ),
               BubbleWidget(
                 style: PaintingStyle.stroke,
                 backgroundColor: Colors.white,
                 position: BubbleArrowPosition.leftTop,
-                width: 200,
+                width: 150,
                 height: 100,
                 arrowWidth: 20,
                 arrowMargin: 40,
@@ -50,7 +51,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.blue, fontSize: 20),
+                    style: TextStyle(color: Colors.blue, ),
                   ),
                 ),
               ),
@@ -59,12 +60,12 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.leftTop,
-                width: 200,
+                width: 150,
                 height: 40,
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -73,12 +74,12 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.leftBottom,
-                width: 200,
+                width: 150,
                 height: 40,
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -87,7 +88,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.rightTop,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -95,7 +96,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -104,7 +105,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.rightBottom,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -112,7 +113,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -121,7 +122,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.bottom,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -129,7 +130,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -138,7 +139,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.bottomRight,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -146,24 +147,24 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
 
             ],
           ),
-          SizedBox(width: 50,),
+          SizedBox(width: 20,),
           Column(
             children: [
               SizedBox(
-                height: 20,
+                height: 50,
               ),
               BubbleWidget(
                 style: PaintingStyle.stroke,
                 backgroundColor: Colors.white,
                 position: BubbleArrowPosition.rightBottom,
-                width: 200,
+                width: 150,
                 height: 100,
                 arrowWidth: 20,
                 arrowMargin: 40,
@@ -172,7 +173,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -181,12 +182,12 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.left,
-                width: 200,
+                width: 150,
                 height: 40,
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -195,12 +196,12 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.right,
-                width: 200,
+                width: 150,
                 height: 40,
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -209,7 +210,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.topRight,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -217,7 +218,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -226,7 +227,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.top,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -234,7 +235,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -243,7 +244,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.topLeft,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -251,7 +252,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
@@ -260,7 +261,7 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 position: BubbleArrowPosition.bottomLeft,
-                width: 200,
+                width: 150,
                 height: 80,
                 arrowHeight: 20,
                 arrowMargin: 20,
@@ -268,7 +269,7 @@ class MyHomePage extends StatelessWidget {
                 child: Container(
                   child: Text(
                     "强大的 气泡控件",
-                    style: TextStyle(color: Colors.red, fontSize: 20),
+                    style: TextStyle(color: Colors.red, ),
                   ),
                 ),
               ),
