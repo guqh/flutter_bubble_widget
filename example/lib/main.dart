@@ -40,8 +40,8 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 style: PaintingStyle.stroke,
-                backgroundColor: Colors.white,
-                position: BubbleArrowPosition.leftTop,
+                position: BubbleArrowPosition.right,
+                stokeWidth: 10,
                 width: 150,
                 height: 100,
                 arrowWidth: 20,
@@ -162,12 +162,10 @@ class MyHomePage extends StatelessWidget {
               ),
               BubbleWidget(
                 style: PaintingStyle.stroke,
-                backgroundColor: Colors.white,
-                position: BubbleArrowPosition.rightBottom,
+                position: BubbleArrowPosition.left,
                 width: 150,
                 height: 100,
                 arrowWidth: 20,
-                arrowMargin: 40,
                 arrowHeight: 20,
                 color: Colors.red,
                 child: Container(

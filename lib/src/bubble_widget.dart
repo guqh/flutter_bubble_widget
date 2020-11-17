@@ -45,8 +45,6 @@ class BubbleWidget extends StatelessWidget {
 
   // 边框宽度 当style 是边框时 有效
   double stokeWidth;
-  // 边框宽度 当style 是边框时 有效
-  Color backgroundColor;
 
   // 圆角 大小 矩形部分
   double radius;
@@ -69,7 +67,6 @@ class BubbleWidget extends StatelessWidget {
     this.style = PaintingStyle.fill,
     this.position = BubbleArrowPosition.topLeft,
     this.stokeWidth = 1,
-    this.backgroundColor = Colors.white,
     this.radius = 10,
     this.arrowMargin = 10,
     this.arrowHeight = 10,
@@ -86,7 +83,7 @@ class BubbleWidget extends StatelessWidget {
 
           CustomPaint(
             painter: BubblePainter(width, height, color, style, position,
-                stokeWidth, backgroundColor,radius, arrowMargin, arrowHeight, arrowWidth),
+                stokeWidth, radius, arrowMargin, arrowHeight, arrowWidth),
           ),
 
           Padding(

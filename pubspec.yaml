@@ -1,6 +1,8 @@
 name: flutter_bubble_widget
-description: 全方位气泡组件
-version: 1.0.2
+description: Flutter widget for creating different types of chat bubble. You can use different properties of this Widget and create beautiful Chat Bubbles.It can also be used as a dialog background
+
+
+version: 1.0.3
 homepage: https://github.com/guqh/flutter_bubble_widget
 
 environment:
