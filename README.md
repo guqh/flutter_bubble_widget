@@ -7,6 +7,6 @@ Flutter小部件，用于创建不同类型的聊天气泡。您可以使用此�
 
 ![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/3.png)
 
-![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/2.png)
+![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/2.jpg)
 
 ![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/1.jpg)
