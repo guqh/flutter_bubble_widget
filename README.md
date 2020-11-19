@@ -4,7 +4,7 @@
 |  创建时间    | 2020-11-19 16:00:00      |
 # flutter_bubble_widget
 
-一个全方位的尖角的 flutter 气泡组件
+一个全方位尖角的 flutter 气泡组件
 
 ## 介绍
 
@@ -28,7 +28,7 @@ flutter pub get
 
 
 ## 示意图
-<img src="https://github.com/guqh/flutter_bubble_widget/blob/master/images/1.jpg" style="zoom: 10%;"/>
+<img src="https://github.com/guqh/flutter_bubble_widget/blob/master/images/1.jpg" style="zoom: 100%;"/>
 
 
 ## 	参数说明
@@ -68,7 +68,7 @@ flutter pub get
 ## 	代码演示
 
 ```
-BubbleWidget(
+              BubbleWidget(
                 style: PaintingStyle.stroke,
                 position: BubbleArrowPosition.left,
                 width: 150,
@@ -85,7 +85,7 @@ BubbleWidget(
               )
               
 
-BubbleWidget(
+              BubbleWidget(
                 position: BubbleArrowPosition.topLeft,
                 width: 150,
                 height: 80,
