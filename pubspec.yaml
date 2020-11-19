@@ -2,7 +2,7 @@ name: flutter_bubble_widget
 description: Flutter widget for creating different types of chat bubble. You can use different properties of this Widget and create beautiful Chat Bubbles.It can also be used as a dialog background
 
 
-version: 1.0.4
+version: 1.0.6
 homepage: https://github.com/guqh/flutter_bubble_widget
 
 environment:
