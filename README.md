@@ -52,7 +52,7 @@ import 'package:flutter_bubble_widget/flutter_bubble_widget.dart';
 | arrowHeight | 尖角高度 | double | 10 |
 | arrowWidth | 尖角 宽度 | double | 10 |
 
-**BubbleArrowPosition**尖角位置
+### BubbleArrowPosition 尖角位置
 
 | 属性名称      | 说明     | 类型   |
 | ------------ | -------  | ------ |
