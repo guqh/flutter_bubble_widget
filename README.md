@@ -19,7 +19,7 @@ Flutter小部件.
 1. Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  flutter_bubble_widget: ^1.0.6
+  flutter_bubble_widget: ^1.0.8
 ```
 2. You can install packages from the command line:
 ```
