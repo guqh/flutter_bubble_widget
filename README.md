@@ -32,7 +32,7 @@ import 'package:flutter_bubble_widget/flutter_bubble_widget.dart';
 
 
 ## 示意图
-![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/1.jpg)
+![image](https://github.com/guqh/flutter_bubble_widget/blob/master/images/demo.jpg)
 
 
 ## 	参数说明
