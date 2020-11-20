@@ -37,6 +37,8 @@ import 'package:flutter_bubble_widget/flutter_bubble_widget.dart';
 
 ## 	参数说明
 
+### BubbleWidget 气泡背景组件
+
 | 参数名称      | 说明                                                         | 类型               | 默认值 |
 | ------------- | ------------------------------------------------------------ | ------------------ | ------ |
 | child       | 子组件，可以是任何widget                                                       | Widget       | -      |
