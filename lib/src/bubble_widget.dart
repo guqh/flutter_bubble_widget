@@ -58,6 +58,9 @@ class BubbleWidget extends StatelessWidget {
   // 尖角 宽度
   double arrowWidth;
 
+  /*
+   * 对外开放使用的 构造
+   */
   BubbleWidget({
     @required this.child,
     this.padding = 10,
@@ -73,6 +76,9 @@ class BubbleWidget extends StatelessWidget {
     this.arrowWidth = 10,
   });
 
+  /*
+   * 构建 widget 树
+   */
   @override
   Widget build(BuildContext context) {
     return Container(

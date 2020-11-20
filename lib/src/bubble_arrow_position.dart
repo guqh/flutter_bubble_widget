@@ -1,3 +1,6 @@
+/*
+ * 尖角位置
+ */
 enum BubbleArrowPosition {
   left,
   top,

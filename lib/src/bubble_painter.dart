@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 
 import 'bubble_arrow_position.dart';
 
+/*
+ * 主体绘制
+ */
 class BubblePainter extends CustomPainter {
   //  宽度
   double width;
@@ -34,6 +37,9 @@ class BubblePainter extends CustomPainter {
   // 尖角 宽度
   double arrowWidth;
 
+  /*
+   * 构造
+   */
   BubblePainter(
       this.width,
       this.height,
@@ -47,6 +53,9 @@ class BubblePainter extends CustomPainter {
       this.arrowWidth,
       );
 
+  /*
+   * 具体绘制方法
+   */
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint = Paint();
@@ -63,6 +72,9 @@ class BubblePainter extends CustomPainter {
     canvas.restore();
   }
 
+  /*
+   * 当尖角位置在右侧时， 布局绘制
+   */
   void _drawRights(Canvas canvas, Paint paint) {
     if (position == BubbleArrowPosition.rightTop ||
         position == BubbleArrowPosition.right ||
@@ -93,6 +105,9 @@ class BubblePainter extends CustomPainter {
     }
   }
 
+  /*
+   * 当尖角在左侧时，布局绘制
+   */
   void _drawLefts(Canvas canvas, Paint paint) {
     if (position == BubbleArrowPosition.leftTop ||
         position == BubbleArrowPosition.left ||
@@ -122,6 +137,9 @@ class BubblePainter extends CustomPainter {
     }
   }
 
+  /*
+   * 当尖角在底部时，布局绘制
+   */
   void _drawBottoms(Canvas canvas, Paint paint) {
     if (position == BubbleArrowPosition.bottom ||
         position == BubbleArrowPosition.bottomLeft ||
@@ -151,6 +169,9 @@ class BubblePainter extends CustomPainter {
     }
   }
 
+  /*
+   * 当尖角在顶部时，布局绘制
+   */
   void _drawTops(Canvas canvas, Paint paint) {
     if (position == BubbleArrowPosition.top ||
         position == BubbleArrowPosition.topLeft ||
@@ -181,6 +202,9 @@ class BubblePainter extends CustomPainter {
     }
   }
 
+  /*
+   * 是否 需要重绘
+   */
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => true;
 
